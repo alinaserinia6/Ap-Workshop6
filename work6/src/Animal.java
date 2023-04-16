@@ -11,8 +11,7 @@ public abstract class Animal {
 
     public abstract void show();
 
-//    public static void main(String[] args) throws Exception {
-//
-//    }
-
+    public String getName() {
+        return name;
+    }
 }
